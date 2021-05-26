@@ -5,20 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DWWM</title>
+    <!-- Bootstrap & CSS -->
+        
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello and welcome on our website !</h1>
-    <button><a href="./antho/antho.html">Antho</a></button>
-    <button><a href="./gab/gab.html">Gab</a></button>
-    <button><a href="./lea/lea.html">Léa</a></button>
-    <button><a href="./rajae/rajae.html">Rajae</a></button>
-    <button><a href="./sylvain/sylvain.html">Sylvain</a></button>
+    <!-- Navigation -->
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html">
+                    <img class="logo" src="./img/dave.png" alt="logo">
+                    DWWM
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                           <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Team
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="./antho/antho.html">Antho</a>
+                              <a class="dropdown-item" href="./benoit/benoit.html">Benoit</a>
+                              <a class="dropdown-item" href="./gab/gab.html">Gab</a>
+                              <a class="dropdown-item" href="./lea/lea.html">Léa</a>
+                              <a class="dropdown-item" href="./rajae/rajae.html">Rajae</a>
+                              <a class="dropdown-item" href="./sylvain/sylvain.html">Sylvain</a>
+                            </div>
+                          </li>
+                     </ul>
+                 </div>
+            </nav>
+        </div>
+    </div>
 
-    <!-- Snippets -->
-    <button onclick="TogetherJS(this); return false;">Start TogetherJS</button>
-    <!-- Scripts -->
-    <script src="https://togetherjs.com/togetherjs-min.js"></script>
+    <!-- Content -->
+    <div class="container text-center">
+        <h1>Welcome in Hell ! 🍻</h1>
+        <div class="row">
+            <h2>Arcade</h2>
+            <hr class="mb-5">
+        </div>
+        <div class="row">
+            <h2>Projects</h2>
+            <hr class="mb-5">
+        </div>
+        <div class="row">
+            <h2>Team Members</h2>
+            <hr class="mb-5">
+            <div class="col-lg-12 team">
+                <div class="card card-member">
+                        <h3 class="card-title">Antho</h3>
+                    <div class="card-body">
+                        <a href="./antho/antho.html" class="btn btn-outline-dark">Go</a>
+                    </div>
+                </div>
+                <div class="card card-member">
+                        <h3 class="card-title">Benoit</h3>
+                    <div class="card-body">
+                        <a href="./benoit/benoit.html" class="btn btn-outline-dark">Go</a>
+                    </div>
+                </div>
+                <div class="card card-member">
+                    <h3 class="card-title">Gab</h3>
+                    <div class="card-body">
+                        <a href="./gab/gab.html" class="btn btn-outline-dark">Go</a>
+                    </div>
+                </div>
+                <div class="card card-member">
+                    <h3 class="card-title">Léa</h3>
+                    <div class="card-body">
+                        <a href="./lea/lea.html" class="btn btn-outline-dark">Go</a>
+                    </div>
+                </div>
+                <div class="card card-member">
+                    <h3 class="card-title">Rajae</h3>
+                    <div class="card-body">
+                        <a href="./rajae/rajae.html" class="btn btn-outline-dark">Go</a>
+                    </div>
+                </div>
+                <div class="card card-member">
+                    <h3 class="card-title">Sylvain</h3>
+                    <div class="card-body">
+                        <a href="./sylvain/sylvain.html" class="btn btn-outline-dark">Go</a>
+                    </div>
+                </div>
+    
+            </div>
+            
+        </div>
+    
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid"></div>
+    
+
+    
     <script src="main.js"></script>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
