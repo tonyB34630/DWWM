@@ -1,0 +1,13 @@
+.logo {
+    height: 4em;
+    width: auto;
+}
+
+.team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .card-member {
+        padding: 1em;
+    }
+}

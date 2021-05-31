@@ -1,0 +1,15 @@
+.logo {
+  height: 4em;
+  width: auto;
+}
+
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.team .card-member {
+  padding: 1em;
+}
+/*# sourceMappingURL=style.css.map */
