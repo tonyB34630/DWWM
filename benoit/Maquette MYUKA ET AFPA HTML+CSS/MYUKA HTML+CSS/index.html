@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <title>MYUKA - recherchez une information sur un produit</title>
+    </head>
+
+
+    <body>
+        <div class="bloc_page">  <!-- Contient l'ensemble de la page web -->
+            <header>
+                    <h1>MYUKA</h1>                                                           
+            </header>
+
+            <div class="barre_deco_menu"></div>
+            
+            <nav class="nav_haut">
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Infos</a></li>
+                    <li><a href="#">Gammes</a></li>
+                    <li><a href="#">À propos</a></li>
+                </ul>
+            </nav> 
+            
+            <div class="bloc_formulaire">
+                <h3>Produit recherché</h3>
+                <form class="input_formulaire" method="POST" action="formulaire.php">
+                    <div>
+                        <input id="nom" type="text" placeholder="nom" />
+                    </div>    
+                    <div>
+                        <input id="code" type="text" placeholder="numéro code barre" />
+                    </div>
+                    <div>
+                        <input id="marque" type="text" placeholder="marque" />
+                    </div>
+
+                    <input class="bouton_rechercher" type="submit" value="Rechercher">
+                </form>       
+            </div>    
+
+            <div class="bloc_titre_produit">
+                <h1>Chocapic - 1Kg</h1>
+                    <p>Code barre : 56046489406543201564(EAN / EAN-33)<br />
+                       Marques : Nestlé, Cereals Partners, Chocapic</p>
+            </div>
+            
+            <section class="section_1">
+                <div class="bloc_image_produit">
+                    <img src="src/chocapic.png" alt="boite de chocapic" class="img_chocapic" />   
+                </div>
+                <div class="bloc_ingredients">
+                        <h2>Ingrédients</h2>
+                        <h4 class="liste_ingredients">Liste des ingrédients :</h4>
+
+                        <p>Farine de BLE complet* 32,7%*, chocolat en  
+                        poudre 29,6% (sucre*, cacao en poudre*),
+                        farine de BLE*, semoule de maïs*, sirop de
+                        glucose*, extrait de malt d'ORGE*, huile de
+                        tournesol*, sel, arômes naturels.</p>
+                        
+                        <h4 class="ingredients_bio">*Ingrédients issus de l'agriculture biologique.</h4>
+                               
+                        <h4 class="sans_huile">Sans huile de palme</h4>
+                </div>
+            </section>
+
+            <section class="section_2">
+                <div class="bloc_valeurs">
+                    <h2>Valeurs nutritives</h2>
+                        <img src="src/tableau_valeurs.png" alt="tableau des valeurs nutritives" class="img_valeurs" />
+                </div>
+                <div class="bloc_conditionnement">
+                        <p class="fabriquant">Fabriquant : Néstlé</p>
+                        <p class="labels">Labels, certifications, récompenses : Blé français</p>
+                        <p class="origine">Origine des ingrédients : France</p>
+                        <p class="pays">Pays de vente : France</p>
+                            <h2>Conditionnement</h2>
+                                <img src="src/tableau_conditionnement.png" alt="tableau du conditionnement" class="img_conditionnement" />
+                </div> 
+            </section>
+
+            <section class="section_3">
+                <div class="bloc_gauche">
+                    <img src="src/Logo-Sans-huile-de-plame.png" alt="logo sans huile de palme" class="img_sans_huile" />
+                </div>
+                <div class="bloc_milieu">
+                    <img src="src/nutriscore_c.png" alt="logo nutriscore-c" class="img_nutriscore" />
+                    <img src="src/ecoscore_a.png" alt="logo éco score" class="img_ecoscore" />
+                </div>
+                <div class="bloc_droit">
+                    <img src="src/nova_4.png" alt="logo nova 4" class="img_nova" />
+                </div>
+            </section>
+            
+            <div class="bloc_menu_bas">
+                <div class="nav_bas_gauche">
+                    <ul>
+                        <li><a href="#">Groupe</a></li>
+                        <li><a href="#">Financement</a></li>
+                        <li><a href="#">Projet</a></li>
+                        <li><a href="#">Distribution</a></li>
+                    </ul>
+                </div>     
+                    <div class="separation_1"></div>
+                <div class="nav_bas_milieu"> 
+                    <ul>    
+                        <li><a href="#">Partenaires</a></li>
+                        <li><a href="#">Investisseurs</a></li>
+                        <li><a href="#">Région</a></li>
+                        <li><a href="#">Participation</a></li>
+                    </ul>
+                </div>     
+                    <div class="separation_2"></div>                  
+                <div class="nav_bas_droit"> 
+                    <ul>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Recrutement</a></li>
+                        <li><a href="#">Plan du site</a></li>
+                        <li><a href="#">Presse</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bloc_reseaux"></div>
+
+                <p class="txt_facebook">Facebook</p>
+                <p class="txt_twitter">Twitter</p>
+                <p class="txt_insta">Instagram</p>
+
+                 <a href="https://www.facebook.com/"><img src="src/facebook.png" alt="logo facebook" class="img_facebook" /></a>                
+                 <a href="https://www.twitter.com/"><img src="src/twitter.png" alt="logo twitter" class="img_twitter" /></a>                  
+                 <a href="https://www.instagram.com/"><img src="src/insta.png" alt="logo instagram" class="img_insta" /></a>            
+                         
+            <footer>
+                <div class="bloc_footer">
+                    <p>Copyright© Tous droits réservés à <a href="#">MYUKA.com</a> - 2021</p>                    
+                </div>
+            </footer>
+        </div>      
+    </body>
+</html>
+

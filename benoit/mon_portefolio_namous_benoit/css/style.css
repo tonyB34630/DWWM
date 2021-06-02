@@ -1,0 +1,132 @@
+body{
+    background: linear-gradient(#817979, #2c2d2e);    
+}
+
+.container{   
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: rgb(45, 42, 48);
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;    
+}
+
+.monNom{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    margin-top: 10px;
+    color: #ebe0e0f1;      
+}
+
+.titrePhotographie{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    color: rgba(184, 173, 173, 0.78);
+    margin-top: -30px;
+}
+
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(65, 48, 48);    
+}
+
+.nav-link:hover{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);    
+}
+
+.navbar-nav{
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+    margin-top: -0.6%;  
+    justify-content: space-around;    
+}
+
+.container-fluid{
+    padding: 0px;
+}
+
+.main-page-1, .main-page-2{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 40px;
+    border: 2.5px dotted rgb(104, 98, 98);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container-footer{
+    padding-top: 15px;
+    background-color: rgba(97, 87, 87, 0.548);
+    text-align: center;  
+     
+}
+
+.copyright{
+    color: rgb(223, 219, 219);    
+    
+}
+
+.galerie-titre{
+    color: #ebe0e0f1;
+    border: 1px solid;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.3rem;    
+}
+
+.pagination{
+    justify-content: center;    
+}
+
+
+.page-link{
+    background-color: rgba(97, 87, 87, 0.548);
+    border: 0px;
+    color: rgb(223, 219, 219);   
+}
+
+.page-link:hover{
+    background-color: rgb(223, 219, 219);  
+    border: 0px;
+    color: rgb(66, 59, 59);
+    margin-top: 0px;
+}
+
+.presentation-page{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 40px;    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contactBtn{
+    font-size: 2rem;
+    margin-top: 10px;
+    color: #ebe0e0f1;  
+}
+
+.container-contact label{    
+    margin-top: 10px;
+    color: #ebe0e0f1;  
+}
+
+.btn{
+    background-color: #1c4874;
+    border-color: #1c4874;
+}
+
+.btn:hover{
+    background-color: #b39e5b;
+    border-color: #b39e5b;
+}
+
+
+
+
+
+

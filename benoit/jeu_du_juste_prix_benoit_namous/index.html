@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="#">    
+    <title>Le juste prix!</title>
+  </head>
+
+  <body>
+    <div class="container">
+        <h1>Le jeu du juste prix !</h1>
+          <img src="images/trans.png" alt="mes images" id="mesimages" />
+
+          <input type="text" id="prixObjet" style="display:none" />
+
+          <div class="form">
+            <label for="saisieUser" class="texteSaisie">Devinez le prix (1€ - 100€) :</label>
+            <input type="text" id="saisieUser" class="saisieUser" placeholder="€" /> 
+            <input type="button" class="boutonValider" value="valider" />
+            <input  type="button" class="boutonReset" id="boutonReset" value="Rejouer" disabled />
+          </div>
+          
+          <div class="paraResult">
+            <p class="suppositions"></p>
+            <p class="dernierResultat"></p>
+            <p class="plusOuMoins"></p>            
+          </div>                        
+    </div>
+    <script src="js/app.js"></script> 
+  </body>
+</html>

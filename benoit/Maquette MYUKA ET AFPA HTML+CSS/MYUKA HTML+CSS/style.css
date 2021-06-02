@@ -1,0 +1,511 @@
+/**************** Installation de la police ****************/
+
+@font-face {
+    font-family: 'aileronregular';
+    src: url('font/aileron-fontfacekit/Aileron-Regular-webfont.eot');
+    src: url('font/aileron-fontfacekit/Aileron-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/aileron-fontfacekit/Aileron-Regular-webfont.woff2') format('woff2'),
+         url('font/aileron-fontfacekit/Aileron-Regular-webfont.woff') format('woff'),
+         url('font/aileron-fontfacekit/Aileron-Regular-webfont.ttf') format('truetype'),
+         url('font/aileron-fontfacekit/Aileron-Regular-webfont.svg#aileronregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**************** Début du code CSS ****************/
+
+body {
+    background: radial-gradient(#5282FF,#30457B);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'aileronregular', Verdana, Geneva, Tahoma, sans-serif;
+    color: white;    
+}
+
+.bloc_page {
+    background-color: #C7C9FF;
+    width: 1016px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;    
+}
+
+/**************** Header ****************/
+
+header h1 {
+    margin-left: 250px;
+    margin-bottom: -15px; 
+    font-size: 144px;
+    color: #5282FF;
+    text-shadow: 0px 5px 0px #777999;       
+}
+
+.barre_deco_menu {
+    background-color: #B3B5E6;
+    width: 1016px;
+    height: 40px;
+    margin-bottom: -57px;
+}
+
+/**************** Navigation haut ****************/
+
+.nav_haut {
+    margin-top: 30px;
+    margin-bottom: -11px;
+}
+
+.nav_haut ul {    
+    list-style-type: none;
+    display: flex;
+    margin-left: 208px;        
+}
+
+.nav_haut li {
+    margin-left: 29px;    
+}
+
+.nav_haut a {
+    font-size: 1.2em;
+    color: #30457B;
+    text-decoration: none;
+}
+
+.nav_haut a:hover {
+    color: #5282FF;
+    border-bottom: 5px solid white;    
+}
+
+/**************** Formulaire ****************/
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+}
+
+.bloc_formulaire h3 {
+    text-align: center;
+    margin: 70px 0px 20px 0px;        
+}
+
+.bloc_formulaire {
+    background-color: #30457B;
+    width: 1016px;
+    height: 361px;
+    padding-top: 1px;      
+}
+
+.bloc_formulaire input {
+    background: #5282FF;
+    border: 1px solid #A8C0FF;
+    color: #30457B;
+    width: 250px;
+    height: 29px;
+    margin-bottom: 11px;
+    font-size: 20px;
+    transition: box-shadow linear 0.5s;
+}
+
+.bloc_formulaire input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #5282FF;    
+}
+
+::placeholder {
+    color: #30457B;
+    text-align: center;
+    font-size: 15px;
+}
+
+.bloc_formulaire .bouton_rechercher {
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: #5282FF;
+    border: 1px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 5px black;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 15px;
+    transition: none;   
+}
+
+.bouton_rechercher:hover {
+    box-shadow: 0px 2px 5px #C7C9FF;
+    font-weight: 600;      
+}    
+
+/**************** Bloc titre produit ****************/
+
+.bloc_titre_produit {
+    background-color: #30457B;
+    width: 1016px;
+    height: 159px;
+    margin-top: -33px;   
+    
+}
+
+.bloc_titre_produit h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.bloc_titre_produit p {
+    text-align: center;   
+    color: white;
+    font-size: 17px;
+    margin-top: -18px;    
+}
+
+/*************** Section 1 ***************/
+
+.section_1 {
+    display: flex;    
+    justify-content: space-evenly;
+    margin-top: 9px;
+}
+
+/**************** Bloc gauche ***************/
+
+.bloc_image_produit {
+    width: 469px;
+    height: 500px;
+    background-color: #30457B;
+    border-radius: 15px;  
+    box-shadow: 0px 5px 10px black;   
+}
+
+.img_chocapic {
+    max-width: 375px;
+    height: auto;
+    margin: 0px 0px 0px 45px;   
+}
+
+/*************** Bloc droit ***************/
+
+.bloc_ingredients {
+    width: 469px;
+    height: 500px;
+    background-color: #30457B;
+    border-radius: 15px;   
+    box-shadow: 0px 5px 10px black;    
+}
+
+.bloc_ingredients h2 {
+    font-size: 1.8em;
+    margin: 50px 0px 70px 30px; 
+}
+
+.liste_ingredients {
+    margin: 0px 0px 0px 30px;
+    text-decoration: underline;
+    font-size: 1.2em;
+}     
+
+.bloc_ingredients p {
+    width: 70%;
+    margin: 30px 0px 20px 30px;
+    font-size: 1.1em;        
+}
+
+.ingredients_bio {
+    margin: 0px 0px 0px 30px;
+}
+
+.sans_huile {
+    width: 35%;
+    font-size: 0.95em;
+    background-color: #5282FF;
+    border-radius: 10px;
+    margin: 15px 0px 0px 30px;
+    text-align: center;     
+}
+
+/**************** Section 2 ****************/
+
+.section_2 {
+    display: flex;    
+    justify-content: space-evenly;
+    margin-top: 9px;
+}
+
+/**************** Bloc gauche ***************/
+
+.bloc_valeurs {
+    width: 469px;
+    height: 530px;
+    background-color: #30457B;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px black; 
+}
+
+.bloc_valeurs h2 {
+    font-size: 1.8em;
+    margin: 50px 0px 20px 125px;
+}
+
+.img_valeurs {
+    margin: 0px 0px 0px 22px;
+}
+
+/*************** Bloc droit ***************/
+
+.bloc_conditionnement {
+    width: 469px;
+    height: 530px;
+    background-color: #30457B;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px black; 
+}
+
+.fabriquant {
+    font-size: 1.1em;
+    width: 100%;
+    margin: 50px 0px 0px 30px;
+}
+
+.labels {
+    font-size: 1.1em;
+    width: 100%;
+    margin: 10px 0px 0px 30px;
+}
+
+.origine {
+    font-size: 1.1em;
+    width: 100%;
+    margin: 10px 0px 0px 30px;
+}
+
+.pays {
+    font-size: 1.1em;
+    width: 100%;
+    margin: 10px 0px 0px 30px;
+}
+
+.bloc_conditionnement h2 {
+    font-size: 1.8em;
+    margin: 50px 0px 60px 125px;
+}
+
+.img_conditionnement {
+    margin: 0px 0px 0px 22px;
+}
+
+/**************** Section 3 ****************/
+
+.section_3 {
+    display: flex;    
+    justify-content: space-evenly;
+    margin-top: 9px;
+}
+
+/*************** Bloc gauche ***************/
+
+.bloc_gauche {
+    width: 228px;
+    height: 288px;
+    background-color: #30457B;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px black; 
+}
+
+.img_sans_huile {
+    max-width: 220px;
+    height: auto;
+    margin: 30px 0px 0px 4px;  
+}
+
+/*************** Bloc milieu ***************/
+
+.bloc_milieu {
+    width: 469px;
+    height: 288px;
+    background-color: #30457B;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px black; 
+}
+
+.img_nutriscore {
+    max-width: 240px;
+    height: auto;
+    margin: 10px 0px 0px 120px;  
+}
+
+.img_ecoscore {
+    max-width: 240px;
+    height: auto;
+    margin: -5px 0px 0px 120px;  
+}
+
+/*************** Bloc droit ***************/
+
+.bloc_droit {
+    width: 228px;
+    height: 288px;
+    background-color: #30457B;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px black; 
+}
+
+.img_nova {
+    max-width: 130px;
+    height: auto;
+    margin: 30px 0px 0px 50px;  
+}
+
+/**************** Navigation bas ****************/
+
+.bloc_menu_bas {
+    background-color: #30457B;
+    width: 1016px;
+    height: 139px;   
+    margin-bottom: 9px; 
+}
+
+/**************** Bas gauche ****************/
+
+.nav_bas_gauche ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none; 
+    padding: 30px 0px 0px 300px;        
+}    
+
+.nav_bas_gauche a {
+    text-decoration: none;
+    color: #5282FF;
+    font-size: 17px;    
+}
+
+.nav_bas_gauche a:hover {
+    text-decoration: underline; 
+}
+
+/**************** Barre de séparation 1 ****************/
+
+.separation_1 {
+    border-left: 1px solid #5282FF;
+    height: 100px;
+    margin: -100px 0px 0px 420px;   
+}
+
+/**************** Bas milieu ****************/
+
+.nav_bas_milieu ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none; 
+    margin: -90px 0px 0px 410px; ;
+}
+
+.nav_bas_milieu a {
+    text-decoration: none;
+    color: #5282FF;
+    font-size: 17px;    
+}
+
+.nav_bas_milieu a:hover {
+    text-decoration: underline; 
+}
+
+/**************** Barre de séparation 2 ****************/
+
+.separation_2 {
+    border-left: 1px solid #5282FF;
+    height: 100px;
+    margin: -86px 0px 0px 570px;   
+}
+
+/**************** Bas droit ****************/
+
+.nav_bas_droit ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none; 
+    margin: -88px 0px 0px 560px;
+}
+
+.nav_bas_droit a {
+    text-decoration: none;
+    color: #5282FF;
+    font-size: 17px;    
+}
+
+.nav_bas_droit a:hover {
+    text-decoration: underline; 
+}
+
+/**************** Réseaux sociaux ****************/
+
+.bloc_reseaux {
+    background-color: #30457B;
+    width: 1016px;
+    height: 139px;       
+}
+
+.txt_facebook {
+    margin: -100px 0px 0px 300px;
+    font-size: 17px;
+    color: #5282FF;    
+}
+
+.txt_twitter {
+    margin: -19px 0px 0px 460px;
+    font-size: 17px;
+    color: #5282FF;    
+}
+
+.txt_insta {
+    margin: -19px 0px 0px 600px;
+    font-size: 17px;
+    color: #5282FF;    
+}
+
+.img_facebook {
+    width: 40px;
+    height: 40px;
+    margin-left: 317px;
+    padding-top: 10px; 
+}
+
+.img_twitter {
+    width: 40px;
+    height: 40px;
+    margin-left: 107px;
+    padding-top: 10px;    
+}
+
+.img_insta {
+    width: 40px;
+    height: 40px;
+    margin-left: 108px;
+    padding-top: 10px;      
+}
+
+/**************** Footer ****************/
+
+.bloc_footer {
+    background-color: #30457B;
+    width: 1016px;
+    height: 134px;
+    margin-top: 35px;       
+}
+
+.bloc_footer p {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 40px;    
+}
+
+.bloc_footer a {
+    font-size: 15px;
+    color: white;   
+}
+
+
+
+
+
