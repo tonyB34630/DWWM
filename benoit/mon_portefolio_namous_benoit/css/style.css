@@ -96,11 +96,10 @@ body{
     margin-top: 0px;
 }
 
-.presentation-page{
+#container-presentation{
     margin-top: 150px;
     margin-bottom: 150px;
-    padding: 40px;    
-    margin-left: 20px;
+    padding: 40px;
     margin-right: 20px;
 }
 
