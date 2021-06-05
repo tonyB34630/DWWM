@@ -7,9 +7,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .team .card-member {
   padding: 1em;
+  margin: 0.75em;
 }
 /*# sourceMappingURL=style.css.map */
